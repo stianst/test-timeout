@@ -1,0 +1,11 @@
+name: Second tests
+
+on:
+  pull_request:
+    branches: main
+
+jobs:
+  test-3:
+    runs-on: ubuntu-latest
+    steps:
+    - run: sleep 30
