@@ -14,3 +14,35 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - run: sleep 300
+  test-3:
+    runs-on: ubuntu-latest
+    steps:
+    - run: sleep 300
+  test-4:
+    runs-on: ubuntu-latest
+    steps:
+    - run: sleep 300
+  test-5:
+    runs-on: ubuntu-latest
+    steps:
+    - run: sleep 300
+  test-6:
+    runs-on: ubuntu-latest
+    steps:
+    - run: sleep 300 && echo "Failing test" && exit 1
+  test-7:
+    runs-on: ubuntu-latest
+    steps:
+    - run: sleep 300
+  test-8:
+    runs-on: ubuntu-latest
+    steps:
+    - run: sleep 300
+  test-9:
+    runs-on: ubuntu-latest
+    steps:
+    - run: sleep 300
+  test-10:
+    runs-on: ubuntu-latest
+    steps:
+    - run: sleep 300
