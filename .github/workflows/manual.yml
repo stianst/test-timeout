@@ -3,13 +3,14 @@ name: Tests
 on:
   pull_request:
     branches: main
+  workflow_dispatch:
 
 jobs:
   test-1:
     runs-on: ubuntu-latest
     steps:
-    - run: sleep 30 && echo "Failing test" && exit 1
+    - run: sleep 300 && echo "Failing test" && exit 1
   test-2:
     runs-on: ubuntu-latest
     steps:
-    - run: sleep 30
+    - run: sleep 300
